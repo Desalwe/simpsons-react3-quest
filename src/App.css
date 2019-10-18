@@ -6,6 +6,20 @@
   height: 40vmin;
 }
 
+.App-logo-stop {
+  width: 100px;
+  height: 100px;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,3 +34,5 @@
 .App-link {
   color: #09d3ac;
 }
+
+
